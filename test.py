@@ -11,7 +11,7 @@ import requests
 
 app = FastAPI()
 
-client = pymongo.MongoClient("mongodb+srv://muskanearnestrio:ZNxqy0n23QASuwyB@cluster0.muwhsjj.mongodb.net/")
+client = pymongo.MongoClient("Enter your mongodb connection string")
 db = client["scraping"]
 collection = db["testingthroughapi"]
 
